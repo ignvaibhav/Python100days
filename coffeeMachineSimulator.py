@@ -1,3 +1,6 @@
+# connect the coffeeMachineData.py file before running this
+
+
 from art import *
 from coffeeMachineData import *
 import os
