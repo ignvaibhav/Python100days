@@ -1,6 +1,7 @@
 from art import *
 from coffeeMachineData import *
 import os
+
 import platform
 
 def clrscr():
@@ -9,7 +10,8 @@ def clrscr():
         os.system("cls")  # Clear screen command for Windows
     else:
         os.system("clear")  # Clear screen command for MacOS/Linux
-        
+
+clrscr()
 print(text2art("Coffee Machine"))
 
 print("-----------------------------")
@@ -114,7 +116,6 @@ def start(coin, price, resource):
     
     
 
-clrscr()
 print("Coins we accept :\n")
 for i, j in coin.items():
     print(f"{i} = {j}")
