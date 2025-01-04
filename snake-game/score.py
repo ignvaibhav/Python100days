@@ -25,3 +25,9 @@ class Scoreboard(Turtle):
         self.goto(0,0)
         self.color("red")
         self.write(f"Game Over", align="center", font=("Arial", 50, "bold"))
+        
+    def sir(self):
+        self.clear()
+        self.goto(0,0)
+        self.color("green")
+        self.write(f"You are God Sir!🧑‍🤝‍🧑", align="center", font=("Arial", 50, "bold"))
